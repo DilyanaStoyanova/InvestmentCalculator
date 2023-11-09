@@ -16,7 +16,7 @@ function App() {
         setUserInput(prevUserinput => {
             return {
                 ...prevUserinput,
-                [inputIdentifier]: newValue
+                [inputIdentifier]: Number(newValue)
             };
         });
     };
